@@ -1,0 +1,19 @@
+{
+  "name": "citi-viz",
+  "version": "1.0.0",
+  "description": "Data Viz for CitiBike Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SamWeiller",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samweiller/CitiViz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samweiller/CitiViz/issues"
+  },
+  "homepage": "https://github.com/samweiller/CitiViz#readme"
+}
