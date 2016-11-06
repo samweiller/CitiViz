@@ -17,7 +17,7 @@ var bikeRef = ref.child("bikes"); // <-- SCHEMA BASE
 var masterBikeRef = ref.child('masterBikes')
 
 // THIS LINE IS A KILL SWITCH FOR THE DATABASE. IT. WILL. ERASE. EVERYTHING.
-firebase.database().ref().remove()
+// firebase.database().ref().remove()
 
 
 // Open up a data stream for a csv
