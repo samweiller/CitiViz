@@ -22,7 +22,7 @@ var masterBikeRef = ref.child('masterBikes')
 
 // Open up a data stream for a csv
 // TODO: Either have this iterate through files or be dynamic (or both)
-var stream = fs.createReadStream('data/testData.csv');
+var stream = fs.createReadStream('data/201601-citibike-tripdata.csv');
 
 csv
     .fromStream(stream, {
